@@ -1,11 +1,12 @@
 // console.log('From index file')
 //initalize store
 const redux =require('redux')
+const reduxLogger=require('redux-logger')
 const createStore=redux.createStore
 const combinReducers=redux.combineReducers
 const applyMiddleware=redux.applyMiddleware
 //initalize middleware
-const reduxLogger=require('redux-logger')
+// const reduxLogger=require('redux-logger')
 const logger=reduxLogger.createLogger
 
 
